@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "descrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myUint8",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Integer_wrapping_around.sol": "IntegerWrappingAround"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Integer_wrapping_around.sol": {
+			"keccak256": "0xb834c290ec345e4f46735c979276308ea7f5d793c3e7d46766f8cc70af00f03f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dc48042eaafea491126a0a802bb51bde946ac4a511e366243e121e5f11b0c8d6",
+				"dweb:/ipfs/Qmaku6zqw12hnuNf1MQfwaRcfaN2RsNBeco1NTgccmx7SS"
+			]
+		}
+	},
+	"version": 1
+}
