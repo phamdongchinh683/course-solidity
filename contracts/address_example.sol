@@ -1,18 +1,19 @@
 pragma solidity ^0.8.0;
 
-contract HelloWorld {
+contract AddressExample {
 
-    address public myAddress;
+    uint public balanceReceived;
 
-    function setNewValue(address _myAddress) public {
-        myAddress = _myAddress;
+
+    function receiveMoney() public payable {
+        balanceReceived += msg.value;
     }
 
-    function getMyAddress() external view returns (address) {
-        return myAddress;
+    function getBalance() public view returns (uint){
+        return address(this).balance;
     }
 
-    function getBlanceAccount() public view returns(uint) {
-        return myAddress.balance;
+    function withdrawMoneyto(address payable _to) public {
+        _to.transfer(getBalance());
     }
 }
