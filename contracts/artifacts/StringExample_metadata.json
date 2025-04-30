@@ -7,6 +7,19 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "getNewValue",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "myString",
 				"outputs": [
 					{
@@ -60,11 +73,11 @@
 	},
 	"sources": {
 		"contracts/string_example.sol": {
-			"keccak256": "0xc50c8cb2249bb42a083bb8ce0f3a13a2958c17b0705aa1ad322123e5afef2501",
+			"keccak256": "0xf6bf97dce4432a60f074a5316ba81e4e332461a9837f11eb44fe33cf79e0e262",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://18207fcddca70401d914c6c9460594bd736b6a18dfd416e98ebcbdba4fdcd22a",
-				"dweb:/ipfs/QmaWN3oQAHY94xWtJaeR3j6qDSWZ5qvkUadz5Tu98CEdm2"
+				"bzz-raw://80628caf78bca5c2287c419c6eb80d9f6582544d718157418c8e9a10b863f903",
+				"dweb:/ipfs/QmNgPNjeyo9SEyVEm4buFC5LnqChB3DTT28LWLhBrkN2Uo"
 			]
 		}
 	},

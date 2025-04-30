@@ -8,7 +8,4 @@ contract StringExample {
         myString = _newValue;
     }
 
-    
-
-
 }
