@@ -17,7 +17,12 @@
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "totalBalance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numPayments",
 						"type": "uint256"
 					}
 				],
@@ -104,10 +109,10 @@
 	},
 	"sources": {
 		"contracts/mapping_struct.sol": {
-			"keccak256": "0xed8233d3aebcc077f1458aa2676273f73d6805e2234c797a29715e056b0d6bea",
+			"keccak256": "0x075c4646d9ef325da4d2cfd8bad55d0628957509e14c48d62d3e421cc0ffb432",
 			"urls": [
-				"bzz-raw://ee227e95bdc6cbdbf577b025699e8ae8e8dfda243a18dd9e5e61e87b901b74fe",
-				"dweb:/ipfs/QmauJDajicHntGKrZcKdEjiHAwPqmvkQWeLhqtx4Yoon8b"
+				"bzz-raw://b54c726775406582925df3032392afca0461c3e989a2279913ce62dfeabddf8e",
+				"dweb:/ipfs/QmbLMrKpRu7jh2dhdK9N2qBMn4ACjzv8ySaX2rGyNwJJPB"
 			]
 		}
 	},
