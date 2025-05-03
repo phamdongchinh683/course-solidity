@@ -2,7 +2,7 @@
 pragma solidity >=0.8.9;
 
 contract FallbackExample {
-    mapping(address => uint256) public balanceReceived;
+    mapping(address => uint) public balanceReceived;
 
     function receiveMoney() public payable {
         balanceReceived[msg.sender] += msg.value;

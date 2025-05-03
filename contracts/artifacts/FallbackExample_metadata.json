@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"stateMutability": "payable",
 				"type": "fallback"
 			},
@@ -23,6 +28,32 @@
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getOwner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -82,11 +113,11 @@
 	},
 	"sources": {
 		"contracts/fallback_examplle.sol": {
-			"keccak256": "0x41a370b25e3c080089225b91672f548bd0b4c74224fe0528915ea5daddceccec",
+			"keccak256": "0x274778ae838740f1470da1f618eb98def1e7b24abff0179ea4e1b1e1ec8815f1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3ca076b9c80d5c48e85dd6f0e880f68e4104843129e84414a1f2873dd42911ae",
-				"dweb:/ipfs/QmUakqcEAZmxMfucrJYn4UM6am5QGsX6VMtVHUPSE5kLLS"
+				"bzz-raw://49def0c03768160eed0ed79d4b46621f5baab94f7976e3069d67cffac8d60fae",
+				"dweb:/ipfs/QmQ7QHRGEqGgXa6QV5vfwriJtbA6JEDsVyvDhsEzMEGnKz"
 			]
 		}
 	},
